@@ -8,7 +8,6 @@ const ctrl =  require("./inc/controller");
 conn();
 const app = express(); 
 
-app.use("/css",express.static(path.resolve(__dirname,"public/css")))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
@@ -20,6 +19,4 @@ app.delete("/:id",ctrl.delete)
 
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT,()=>{
-    console.log(`Server is Running on port ${PORT}`);
-})
+app.listen(PORT,()=>{})
