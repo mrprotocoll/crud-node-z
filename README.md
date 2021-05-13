@@ -7,6 +7,12 @@ https://crudz.herokuapp.com
 # github Link
 https://github.com/mrprotocoll/crud-node-z
 
+# Form Data
+name : string
+email : string
+country : string
+dob : Date
+
 # Routes
 POST (/)
 https://crudz.herokuapp.com
