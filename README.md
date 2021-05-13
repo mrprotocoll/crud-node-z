@@ -8,9 +8,9 @@ https://crudz.herokuapp.com
 https://github.com/mrprotocoll/crud-node-z
 
 # Form Data
-name : string
-email : string
-country : string
+name : string, 
+email : string, 
+country : string, 
 dob : Date
 
 # Routes
