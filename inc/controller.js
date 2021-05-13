@@ -16,6 +16,12 @@ exports.add = (req,res)=>{
         country : req.body.country,
     })
 
+    if(!std.name || !std.email || !std.country){
+        var msg = "All fields are Required";
+        res.send({message:msg})
+        return;
+    }
+    
     std
     .save(std)
     .then(data =>{
