@@ -8,15 +8,17 @@ https://crudz.herokuapp.com
 https://github.com/mrprotocoll/crud-node-z
 
 # Routes
-
-GET
+POST (/)
 https://crudz.herokuapp.com
 
-GET BY ID
+GET (/)
+https://crudz.herokuapp.com
+
+GET BY ID (/:id)
 https://crudz.herokuapp.com/:id
 
-PUT
+PUT (/:id)
 https://crudz.herokuapp.com/:id
 
-DELETE
+DELETE (/:id)
 https://crudz.herokuapp.com/:id
